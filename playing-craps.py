@@ -9,6 +9,12 @@ frequency3 = 0
 frequency4 = 0
 frequency5 = 0
 frequency6 = 0
+frequency7 = 0
+frequency8 = 0
+frequency9 = 0
+frequency10 = 0
+frequency11 = 0
+frequency12 = 0
 
 # 6,000,000 die rolls
 for roll in range(6_000_000):  # note underscore seperators
