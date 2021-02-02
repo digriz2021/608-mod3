@@ -16,6 +16,8 @@ frequency10 = 0
 frequency11 = 0
 frequency12 = 0
 
+trials = 6_000_000
+
 # 6,000,000 die rolls
 for roll in range(6_000_000):  # note underscore seperators
     face = random.randrange(1, 7) + random.randrange(1, 7)
@@ -59,3 +61,9 @@ print(f'{9:>4}{frequency9:>13}')
 print(f'{10:>4}{frequency10:>13}')
 print(f'{11:>4}{frequency11:>13}')
 print(f'{12:>4}{frequency12:>13}')   
+
+craps = frequency2 + frequency3 + frequency12
+win = frequency7 + frequency11
+      
+print ('Craps:', craps/trials)
+print ('Win:', win/trials)       
